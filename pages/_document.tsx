@@ -1,11 +1,12 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   const meta = {
-    title: 'Next.js Blog Starter Kit',
-    description: 'Clone and deploy your own Next.js portfolio in minutes.',
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png',
-  }
+    title: "Personal Website",
+    description: "COO Of Programmer's Elite School.",
+    image:
+      "https://scontent.fcai21-3.fna.fbcdn.net/v/t39.30808-6/385897671_2371200256422648_3552109804124141546_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=-b0RL_xFEIAAX_6RBtP&_nc_ht=scontent.fcai21-3.fna&oh=00_AfAzoiZ4O5u4fvY40KsxVzVc3HNi8tZBkzqZDRcnHF3Qkw&oe=6564406E",
+  };
 
   return (
     <Html lang="en">
@@ -27,5 +28,5 @@ export default function Document() {
         <NextScript />
       </body>
     </Html>
-  )
+  );
 }
